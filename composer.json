@@ -13,9 +13,23 @@
             "email": "hans@falcosolutions.nl"
         }
     ],
+    "repositories": [
+    {
+        "type":"package",
+        "package": {
+          "name": "annus0191/phpagebuilder",
+          "version":"master",
+          "source": {
+              "url": "https://github.com/annus0191/PHPageBuilder.git",
+              "type": "git",
+              "reference":"master"
+            }
+        }
+    }
+    ],
     "require": {
         "php": ">=7.0",
-        "hansschouten/phpagebuilder": "^0.22"
+        "annus0191/phpagebuilder": "master"
     },
     "autoload": {
         "psr-4": {
